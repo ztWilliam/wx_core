@@ -4,7 +4,7 @@
 
 # without time limitation, it will not stop until the files are all added to cloud.
 # SAMPLE :
-# /usr/local/php53/bin/php /home/www/dev/wx_core/protected/yiic.php wxApiDaemon transferFiles >> /var/log/zt_wx_transferFile_log.log
+# [PathToPhpRoot]/bin/php /[PathToWebRoot]/wx_core/protected/yiic.php wxApiDaemon transferFiles >> /var/log/zt_wx_transferFile_log.log
 [PathToPhpRoot]/bin/php /[PathToWebRoot]/wx_core/protected/yiic.php wxApiDaemon transferFiles >> /[PathToLogRoot]/zt_wx_transferFile_log.log
 
 # It will stop in 4 hours even though there are files not added to cloud.
